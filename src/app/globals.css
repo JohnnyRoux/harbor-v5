@@ -1,1 +1,11 @@
-body { font-family: sans-serif; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Quick visual check that CSS is loading */
+:root { --harbor-loaded: 1; }
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
